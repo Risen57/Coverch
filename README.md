@@ -9,7 +9,7 @@ It is an update of my [previous covid info app](https://github.com/Risen57/Covid
 ## To use it:
 
 Simply<br>
-`git clone https://github.com/Risen57/Coverch.git`<br>
+`git clone https://github.com/Risen57/Coverch.git`<br><br>
 And run it using:<br>
 Linux / MacOS:<br>
 `python3 app.py`<br>
