@@ -1,0 +1,122 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
+
+.container {
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: aquamarine;
+    margin: auto;
+    margin-top: 200px;
+    width: 500px;
+    height: 240px;
+    background-color: #0f0f24;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+}
+
+#gi {
+    color: aquamarine;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.info {
+    width: 400px;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: auto;
+    background-color: aquamarine;
+    height: 25px;
+    text-align: center;
+    border: 2px solid aquamarine;
+    border-radius:7px;
+}
+
+/* .cntbtn {
+    height: 30px;
+    width: 227px;
+    background-color: #0f0f24;
+    border: solid 2px #a4ff94;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+} */
+
+.btn {
+    position: relative;
+    height: 30px;
+    width: 227px;
+    background-color: #0f0f24;
+    border: solid 2px #a4ff94;
+    border-radius: 10px;
+
+    top: 10px;
+    left: 50px;
+
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    color: #a4ff94;
+    font-size: 18px;
+    text-align: center;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    /* position: relative;
+    top: 3px;
+    left: 3px; */
+}
+
+.btn:hover {
+    color: #0f0f24;
+    background-color: #a4ff94;
+    border: solid 2px #0f0f24;
+    border-radius: 10px;
+}
+
+/* Countries */
+
+#srchcnt{
+    height: 200px;
+}
+
+#srch{
+    height: 25px;
+    width: 350px;
+
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    
+    background-color: aquamarine;
+    height: 25px;
+    text-align: center;
+    border: 2px solid aquamarine;
+    border-radius:7px;
+}
+
+.srch-inp {
+    height: 120px;
+    width: 250px;
+
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    
+    background-color: aquamarine;
+    height: 25px;
+    border: 2px solid aquamarine;
+    border-radius:7px;
+
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    color: #0f0f24;
+    font-size: 18px;
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}" />
+
+</head>
+
+<body class="bg" style="background-image: url(https://source.unsplash.com/UWQP2mh5YJI/1366x768)">
+    
+    <div class="container" id="srchcnt">
+        <!-- <h2 id="gi">Search up for your country</h2> -->
+
+    <form action="/countries" method="POST">
+        <div id="srch">
+            <label for="cntry">Search up for a country</label>
+        </div>
+        
+        <input type="text" id="cntry" name="country" class="srch-inp" placeholder="Eg: papua new guinea">
+
+        <div class="cntbtn">
+            <button type="submit" class="btn">Search!</button>
+        </div>
+    </form>
+
+    </div>
+
+</body>
+</html>
